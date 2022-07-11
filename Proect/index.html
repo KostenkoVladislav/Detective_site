@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title id = "basis">детективы-краснодар.рф</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet">
+    <link href="./assets/css/animate.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">  
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function (e) {
+            parallax();
+        });
+
+        function parallax() {
+            var scrolled = $(window).scrollTop();
+            $('.bgparallax').css('top', -(scrolled * 0.2) + 'px');
+        }
+    </script>
+    
+</head>
+
+<body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./telegramform/js/telegramform.js"></script>
+    <div class="bgparallax"></div>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+                    <span class="icon-bar"></span>
+                     <span class="icon-bar"></span> 
+                     <span class="icon-bar"></span> 
+                    </button> 
+                    <a class="navbar-brand" href="#">
+                        "Гарант"—<span style="font-size:80%;">Детективное агенство</span></a> 
+                    
+                    
+                    
+                    
+                    </div>
+            <div class="navbar-collapse collapse">
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#contact">8(918)-084-22-77</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+
+    <div class="jumbotron">
+
+       <!-- <div class="garant-head">
+            Гарант-крд
+            <div class="garant-inhead">Детективное агенство</div>
+        </div><br><br><br><br>-->
+
+        <div class="container">
+            <!-- вступительный блок =========================style="white-space:nowrap;"===== -->
+            <div class="row">
+                <div class="col-sm-6 col-md-7 col-lg-6">
+                    
+                        <h1 style="text-align:left;">"ГАРАНТ"</h1>
+                        <h3 style="text-align:left;">Детективное агенство</h3>
+                        <h4 style="text-align:left;">Осуществляем работу в Краснодаре и на территории РФ.</h4> 
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-offset-1">
+                    <div class="headform">
+                        <ul class="headform-list">
+                          
+                            <li>
+                                <p style="text-align:justify; font-size: 130%;"><i class="fa fa-check" ></i >Безопасность</p>
+                            </li>
+                            <li>
+                                <p style="text-align:justify; font-size: 130%;"><i class="fa fa-check" ></i style="font-size: 200%;"> Профессионализм</p>
+                            </li>                              
+                        </ul>
+                       <!-- <form method="post" action="#">
+                            <input type="text" name="name" id="header_form_name" placeholder="Имя">
+                            <input type="text" name="phone" id="header_form_email" placeholder="+7(ххх)-ххх-хх-хх">
+                            <input type="submit" name="submit" value="Поехали!" class="btn-primary"> </form> -->
+                            <div class="form-wrapper">
+                            <form id="form-contact" method="POST" class="contact-form" autocomplete="off" enctype="multipart/form-data">
+                                <p class="contact-form__title">Закажите обратный звонок и наш консультант свяжется с вами</p>
+                                <div class="preloader"></div> 
+                                <p class="contact-form__message"></p>
+                          
+                                <!-- Поле с именем -->
+                                <div class="contact-form__input-wrapper contact-form__input-wrapper_name">
+                                  <input name="name" type="text" class="contact-form__input contact-form__input_name"
+                                         placeholder="Введите ваше имя">
+                                </div>
+
+                                <!--Поле с темой письма-->
+                                <div class="contact-form__input-wrapper contact-form__input-wrapper_name">
+                                    <input name="theme" type="text" class="contact-form__input contact-form__input_name"
+                                           placeholder="Введите тему">
+                                  </div>
+                          
+                                <!-- Поле с телефоном -->
+                                <div class="contact-form__input-wrapper contact-form__input-wrapper_phone">
+                                  <input name="phone" type="tel" class="contact-form__input contact-form__input_phone"
+                                         placeholder="Введите ваш телефон">
+                                </div>
+                          
+                                <!-- Поле с выбором файла 
+                                <div class="contact-form__input-wrapper">
+                                  <input type="file" name="files[]" id="contact-form__input_file"
+                                         class="contact-form__input contact-form__input_file" multiple>
+                                  <label for="contact-form__input_file" class="contact-form__file-button">
+                                    <span class="contact-form__file-text">Выберите файл</span>
+                                  </label>
+                                </div>
+                          
+                                <!--Поле с темой в письме-->
+                               <!-- <input name="theme" type="hidden" class="contact-form__input contact-form__input_theme"
+                                       value="заявка с сайта Детективов">-->
+                          
+                                <!--Кнопка отправки формы-->
+                                <button type="submit" class="contact-form__button">Отправить</button>
+                          
+                              </form>
+                              </div>
+                    </div>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./telegramform/js/telegramform.js"></script>
+  <script>
+
+
+    // Кастомизация поля с файлом. Подробнее тут: https://smartlanding.biz/stilizaciya-input-type-file.html
+    let inputs = document.querySelectorAll('.contact-form__input_file');
+    Array.prototype.forEach.call(inputs, function (input) {
+      let label = input.nextElementSibling,
+        labelVal = label.querySelector('.contact-form__file-text').innerText;
+
+      input.addEventListener('change', function (e) {
+        let countFiles = '';
+        if (this.files && this.files.length >= 1)
+          countFiles = this.files.length;
+
+        if (countFiles)
+          label.querySelector('.contact-form__file-text').innerText = 'Выбрано файлов: ' + countFiles;
+        else
+          label.querySelector('.contact-form__file-text').innerText = labelVal;
+      });
+    });
+
+  </script>
+   <!-- Маска ввода номера телефона. Подробнее тут: https://smartlanding.biz/maski-vvoda-telefona.html -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+   <script>
+     $(function () {
+       $('input[type="tel"]').mask('+7(000)000-00-00');
+     });
+   </script>
+ 
+ 
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <main role="main">
+        <div class="bg-2" style="opacity: 0.85; ">
+            <div class="container"  ">
+                <!-- Преимущества ================================================== * ;
+* 
+
+* 
+* Проверка адреса местонахождения человека
+* Информация по временной регистрации
+* 
+* .-->
+                <section id="benefits" style="color: #141313;" >
+                    <br><br>
+                    <h2 class="text-center">Основные сферы деятельности</h2>
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="col-md-4 text-center"><!-- <a href="#"><i class="fa fa-music fa-3x"></i></a>-->
+                                <h4>Розыск</h4>
+                                <p>Поиск пропавших людей <br> Наблюдение<br>
+                                    Проверка адреса местонахождения человека<br>
+                                     Информация по временной регистрации</p>
+                            </div>
+                            <div class="col-md-4 text-center"> <!--<a href="#"><i class="fa fa-star-o fa-3x"></i></a>-->
+                                <h4>Сбор информации</h4>
+                                <p>
+                                    Составление досье на человека<br>
+                                     Проверку супруга на измену.<br>
+                                     Поиск местонахождения авто</p>
+                            </div>
+                            <div class="col-md-4 text-center"><!-- <a href="#"><i class="fa fa-check fa-3x"></i></a>-->
+                                <h4>Юридическая сфера</h4>
+                                <p>Поиск имущества по Российской Федерации Установление родственных связей
+                                     Информация об имуществе лица
+                                     Любое адвокатское и юридическое сопровождение
+                                     </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="col-md-4 text-center"><!-- <a href="#"><i class="fa fa-credit-card fa-3x"></i></a>-->
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div class="col-md-4 text-center"> <!--<a href="#"><i class="fa fa-plane fa-3x"></i></a>-->
+                                <h4>И многое другое...</h4>
+                                <p></p>
+                            </div>
+                            <div class="col-md-4 text-center"><!-- <a href="#"><i class="fa fa-calendar fa-3x"></i></a>-->
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="col-md-4 text-center"> <!--<a href="#"><i class="fa fa-envelope fa-3x"></i></a>--
+                                <h4>Технично</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing </p>
+                            </div>
+                            <div class="col-md-4 text-center"> <!--<a href="#"><i class="fa fa-info-circle fa-3x"></i></a>--
+                                <h4>Надежно</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing </p>
+                            </div>
+                            <div class="col-md-4 text-center"> <!--<a href="#"><i class="fa fa-pencil fa-3x"></i></a>--
+                                <h4>Выгодно</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing </p>
+                            </div>
+                        </div>
+                    </div>-->
+                    <div class="text-center"> <a href="#basis" class="btn btn-primary jbutton">Оставить заявку</a> </div>
+                </section><br><br><br><br><br><br>
+            </div>
+        </div>
+        <!-- Тарифы========================style="white-space:nowrap"========================== -->
+        <div class="container">
+            <section id="tarifs">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2"><br><br>
+                        <h1 class="text-center">Почему нам можно доверять:</h1>
+                        <p><br>
+                            <ul style="font-size:125%;">
+                                <li >Мы работаем честно. Поэтому готовы вернуть деньги, если не сможем выполнить свою работу.
+                                   </li>
+                                <li >Гарантируем конфиденциальность. Это не просто пункт договора, но и этика настоящего детектива.
+                                </li>
+                            </ul>
+
+                        </p>
+                    </div>
+                </div><br><br><br>
+
+
+                <div class="row">
+                    <div class="col-lg-4 pricing_item">
+                        <p style="font-size: 200%;">Безопасность</p>
+                        <!-- <h4 class="price"><span class="currency">$</span>20</h4>
+                         <p class="sentence">в месяц/с человека</p>-->
+                         <p class="sentence"><br><br></p>
+                         <ul>
+                             <li style="font-size:115%"> Частное детективное агентство «ГАРАНТ» работает конфиденциально 
+                                и никогда не передаём информацию о наших клиентах третьим лицам. 
+                                Мы не раскрываем данных тех, кто сотрудничает с нами. Вы можете 
+                                чувствовать абсолютную защищённость, работая с нашим детективным агентством. </li>
+                                 <br><br>
+                         </ul>
+                    </div>
+
+                    <div class="col-lg-4 pricing_item featured">
+                        <p style="font-size: 200%;">Услуги</p>
+                       <!-- <h4 class="price"><span class="currency">$</span>20</h4>
+                        <p class="sentence">в месяц/с человека</p>-->
+                        <p class="sentence"><br><br></p>
+                        <ul>
+                            <li style="font-size:110%">  Частное детективное агентство «ГАРАНТ» оказывает детективные услуги,
+                                занимается сбором информации, помогает в решении семейных проблем, 
+                                осуществляет поиск людей в любой точке мира. Мы также занимаемся 
+                                -фото, -видео и аудиосъёмкой. </li>
+                                <br><br><br><br>
+                        </ul>                                        
+                    </div>
+
+                    <div class="col-lg-4 pricing_item">
+                        <p style="font-size: 200%;">Профессионализм</p>
+                        
+                        <p class="sentence"><br><br></p>
+
+                        <ul>
+                            <li style="font-size:130%">Профессиональный детектив не имеет графика, привычек и зависимостей.
+                                В его распоряжении все новейшие интернет-технологии. 
+                                Частный детектив всегда поможет клиенту и доведёт дело до конца.</li><br><br>
+                            <!--<li>Lorem ipsum dolor</li>
+                            <li><strong>30 Lorem</strong> ipsum</li>-->
+                        </ul><br><br>
+                        
+
+                       
+                       
+                    </div>
+                   
+                </div>
+            </section>
+            <br><br><br><br>
+        </div>
+        
+        
+        <!-- Отзывы================================================== --
+        <div class="bg-2">
+            <div class="container">
+                <div class="row">
+                    <section class="testimonials">
+                        <h2 class="text-center">Отзывы клиентов</h2>
+                        <div class="col-lg-4">
+                            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo:</blockquote>
+                            <div class="avatar"> <img src="assets/img/1.jpg" />
+                                <p>Марк Ц.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <blockquote> “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo." </blockquote>
+                            <div class="avatar"> <img src="assets/img/2.jpg" />
+                                <p>Губка Б.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <blockquote> “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo." </blockquote>
+                            <div class="avatar"> <img src="assets/img/3.jpg" />
+                                <p>Барак О.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- Призыв к действию ================================================== -->
+        <section class="action">
+            <div class="container">
+                <div class="row">
+                    <h2>Оставьте заявку прямо сейчас или свяжитесь с нами удобным вам способом:</h2>
+                    <div class="text-center"> <a href="#basis" class="btn btn-primary jbutton">Оставить заявку</a> </div>
+                    <a href="https://t.me/SaMuRa_III" target="_blank" title="Написать в Telegram" rel="noopener noreferrer"><div class="telegram-button"><i class="fa fa-telegram"></i></div></a>
+                   <a href="https://web.whatsapp.com/send?phone=79180842277&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C+" target="_blank" title="Написать в Whatsapp" rel="noopener noreferrer"><div class="whatsapp-button"><i class="fa fa-whatsapp" aria-hidden="true"></i></div></a>
+                   <a href="tel:+7%20(918)%20084-22-77%20" target="_blank" title="Позвонить +7 (918) 084-22-77" rel="noopener noreferrer"><div class="tel-button"><i class="fa fa-phone" aria-hidden="true"></i></div></a>
+              
+                </div>
+            </div>
+        </section>
+    </main>    
+    <!-- Footer================================================== -->
+    <footer>
+        <div class="container">
+            <p>© Разработка и поддержка сайтов tg:@SaMuRa_III </p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS размещен внизу для ускорения загрузки -->
+    <script src="./assets/js/bootstrap.js"></script>
+</body>
+
+</html>
